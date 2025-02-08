@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<AppTitle>Untitled Application</AppTitle>
+	<AppShortName>MyApp</AppShortName>
+	<Author>Author name</Author>
+	<Version>1.0</Version>
+	<DesignDeviceName>Apple iPhone 6 Plus</DesignDeviceName>
+	<Variables>[app01des],[app01deslong],[app01link],[app02des],[app02deslong],[app02link],[app03des],[app03deslong],[app03link],[app04des],[app04deslong],[app04link]</Variables>
+	<VariablesScanned>True</VariablesScanned>
+	<PageWidth>414</PageWidth>
+	<PageHeight>736</PageHeight>
+	<AutoSizeWidth>False</AutoSizeWidth>
+	<AutoSizeHeight>False</AutoSizeHeight>
+	<HideScrollbars>False</HideScrollbars>
+	<ResponsiveSize>False</ResponsiveSize>
+	<PublishPlatform>WebApp</PublishPlatform>
+	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<LanguageCode>en</LanguageCode>
+	<DisplayMode>standalone</DisplayMode>
+	<ServiceWorker>OfflineCopyOfPages</ServiceWorker>
+	<ThemeColor>#000000</ThemeColor>
+	<PwaScope>/</PwaScope>
+	<MobileOSTypes>[AndroidOS,iOS,WindowsPhoneOS]</MobileOSTypes>
+	<WindowState>normal</WindowState>
+	<TitleBar>True</TitleBar>
+	<Sizeable>True</Sizeable>
+	<MaximizeBtn>False</MaximizeBtn>
+	<MinimizeBtn>True</MinimizeBtn>
+	<SystemMenu>True</SystemMenu>
+	<ContextMenu>False</ContextMenu>
+	<AlwaysOnTop>False</AlwaysOnTop>
+	<ShowInTaskbar>True</ShowInTaskbar>
+	<SingleInstance>False</SingleInstance>
+	<ChromeKioskMode>False</ChromeKioskMode>
+	<Components>
+		<FunctionList name="Subroutines"/>
+		<LibraryList name="Libraries"/>
+		<PageList name="Main">
+			<Components>
+				<Page id="CatalogueHome">
+					<pageenter>GetItem &quot;app01des&quot; [app01des]
+GetItem &quot;app01link&quot; [app01link]
+GetItem &quot;app01deslong&quot; [app01deslong]
+
+GetItem &quot;app02des&quot; [app02des]
+GetItem &quot;app02link&quot; [app02link]
+GetItem &quot;app02deslong&quot; [app02deslong]
+
+GetItem &quot;app03des&quot; [app03des]
+GetItem &quot;app03link&quot; [app03link]
+GetItem &quot;app03deslong&quot; [app03deslong]
+
+GetItem &quot;app04des&quot; [app04des]
+GetItem &quot;app04link&quot; [app04link]
+GetItem &quot;app04deslong&quot; [app04deslong]
+
+GetItem &quot;app05des&quot; [app05des]
+GetItem &quot;app05link&quot; [app05link]
+GetItem &quot;app05deslong&quot; [app05deslong]</pageenter>
+					<Components>
+						<Headline id="Headline1">
+							<left>28px</left>
+							<top>46px</top>
+							<width>372px</width>
+							<height>46px</height>
+							<style>text-align:center</style>
+							<text>MDS Applications 24</text>
+						</Headline>
+						<PushButton id="PushButton2">
+							<left>345px</left>
+							<top>4px</top>
+							<width>59px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>edit</caption>
+							<click>GotoPage &quot;Apploader01&quot;</click>
+						</PushButton>
+						<Headline id="Headline8">
+							<left>45px</left>
+							<top>125px</top>
+							<width>336px</width>
+							<height>88px</height>
+							<style>text-align:center</style>
+							<text>Catalougue 24&lt;br&gt;&lt;sub&gt;Version 1.02&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton9">
+							<left>14px</left>
+							<top>3px</top>
+							<width>39px</width>
+							<height>31px</height>
+							<caption>R</caption>
+							<click>ReloadApp</click>
+						</PushButton>
+						<PushButton id="PushButton17">
+							<left>116px</left>
+							<top>637px</top>
+							<width>75px</width>
+							<height>33px</height>
+							<caption>5-8</caption>
+							<click>GotoPage &quot;Applicationlist5-8&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton18">
+							<left>35px</left>
+							<top>636px</top>
+							<width>75px</width>
+							<height>33px</height>
+							<caption>1-4</caption>
+							<click>GotoPage &quot;Applicationlist01&quot;</click>
+						</PushButton>
+						<Headline id="Headline27">
+							<left>53px</left>
+							<top>239px</top>
+							<width>305px</width>
+							<height>304px</height>
+							<style>font-size:14pt</style>
+							<text>1: [app01des]&lt;br&gt;2: [app02des]&lt;br&gt;3: [app03des]&lt;br&gt;4: [app04des]&lt;br&gt;5: [app05des]&lt;br&gt;6: [app06des]&lt;br&gt;7: [app07des]&lt;br&gt;8: [app08des]&lt;br&gt;9: [app08des]&lt;br&gt;10: [app10des]&lt;br&gt;11: [app11des]&lt;br&gt;12: [app12des]</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Applicationlist01">
+					<Components>
+						<Headline id="Headline2">
+							<left>28px</left>
+							<top>33px</top>
+							<width>372px</width>
+							<height>46px</height>
+							<style>text-align:center</style>
+							<text>MDS Applications 24</text>
+						</Headline>
+						<Headline id="Headline7">
+							<left>27px</left>
+							<top>89px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App 1 Name&amp;nbsp;:&lt;em&gt; [app01des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app01deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton3">
+							<left>357px</left>
+							<top>89px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app01link]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton4">
+							<left>345px</left>
+							<top>4px</top>
+							<width>59px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>HOME</caption>
+							<click>GotoPage &quot;CatalogueHome&quot;</click>
+						</PushButton>
+						<Headline id="Headline12">
+							<left>27px</left>
+							<top>221px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;2 Name&amp;nbsp;:&lt;em&gt; [app02des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app02deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton1">
+							<left>357px</left>
+							<top>221px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app02link]&quot;</click>
+						</PushButton>
+						<Headline id="Headline13">
+							<left>28px</left>
+							<top>355px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;3 Name&amp;nbsp;:&lt;em&gt; [app03des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app03deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton6">
+							<left>358px</left>
+							<top>355px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app03link]&quot;</click>
+						</PushButton>
+						<Headline id="Headline14">
+							<left>28px</left>
+							<top>487px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;4 Name&amp;nbsp;:&lt;em&gt; [app04des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app04deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton7">
+							<left>358px</left>
+							<top>487px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app04link]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton10">
+							<left>173px</left>
+							<top>690px</top>
+							<width>75px</width>
+							<height>33px</height>
+							<caption>5-8</caption>
+							<click>GotoPage &quot;Applicationlist5-8&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Applicationlist5-8">
+					<Components>
+						<Headline id="Headline22">
+							<left>28px</left>
+							<top>33px</top>
+							<width>372px</width>
+							<height>46px</height>
+							<style>text-align:center</style>
+							<text>MDS Applications 24</text>
+						</Headline>
+						<Headline id="Headline23">
+							<left>27px</left>
+							<top>89px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;5 Name&amp;nbsp;:&lt;em&gt; [app05des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app05deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton11">
+							<left>357px</left>
+							<top>89px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app05link]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton12">
+							<left>345px</left>
+							<top>4px</top>
+							<width>59px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>HOME</caption>
+							<click>GotoPage &quot;CatalogueHome&quot;</click>
+						</PushButton>
+						<Headline id="Headline24">
+							<left>27px</left>
+							<top>221px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;6 Name&amp;nbsp;:&lt;em&gt; [app06des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app06deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton13">
+							<left>357px</left>
+							<top>221px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app06link]&quot;</click>
+						</PushButton>
+						<Headline id="Headline25">
+							<left>28px</left>
+							<top>355px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;7 Name&amp;nbsp;:&lt;em&gt; [app07des]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app07deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton14">
+							<left>358px</left>
+							<top>355px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app07link]&quot;</click>
+						</PushButton>
+						<Headline id="Headline26">
+							<left>28px</left>
+							<top>487px</top>
+							<width>325px</width>
+							<height>112px</height>
+							<style>font-size:13pt;font-weight:800;border-bottom:1px solid black</style>
+							<text>App&amp;nbsp;8 Name&amp;nbsp;:&lt;em&gt; [app0d8es]&lt;/em&gt;&lt;br&gt;&lt;sub&gt;Description: &lt;em&gt;[app08deslong]&lt;/em&gt;&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton15">
+							<left>358px</left>
+							<top>487px</top>
+							<width>35px</width>
+							<height>96px</height>
+							<caption>O&lt;br&gt;P&lt;br&gt;E&lt;br&gt;N</caption>
+							<click>LoadApp &quot;[app08link]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton16">
+							<left>173px</left>
+							<top>690px</top>
+							<width>75px</width>
+							<height>33px</height>
+							<caption>5-8</caption>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="NewPage1"/>
+				<Page id="Apploader1a">
+					<Components>
+						<Headline id="Headline3">
+							<left>28px</left>
+							<top>32px</top>
+							<width>372px</width>
+							<height>46px</height>
+							<style>text-align:center</style>
+							<text>MDS Applications 24</text>
+						</Headline>
+						<TextInput id="TextInput1">
+							<left>27px</left>
+							<top>99px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app01des</variable>
+							<change>SetItem &quot;app01des&quot; [app01des]</change>
+						</TextInput>
+						<TextInput id="TextInput2">
+							<left>28px</left>
+							<top>159px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app01link</variable>
+							<change>SetItem &quot;app01link&quot; [app01link]</change>
+						</TextInput>
+						<TextArea id="TextArea1">
+							<left>29px</left>
+							<top>214px</top>
+							<width>352px</width>
+							<height>124px</height>
+							<variable>app01deslong</variable>
+							<change>SetItem &quot;app01deslong&quot; [app01deslong]</change>
+						</TextArea>
+						<Headline id="Headline4">
+							<left>26px</left>
+							<top>80px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 01</text>
+						</Headline>
+						<Headline id="Headline5">
+							<left>26px</left>
+							<top>141px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 01Link</text>
+						</Headline>
+						<Headline id="Headline6">
+							<left>27px</left>
+							<top>196px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 01 detail</text>
+						</Headline>
+						<Pager id="Pager3">
+							<left>152px</left>
+							<top>684px</top>
+							<width>133px</width>
+							<height>38px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<PushButton id="PushButton5">
+							<left>345px</left>
+							<top>4px</top>
+							<width>59px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>HOME</caption>
+							<click>GotoPage &quot;CatalogueHome&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput3">
+							<left>27px</left>
+							<top>377px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app02des</variable>
+							<change>SetItem &quot;app02des&quot; [app02des]</change>
+						</TextInput>
+						<TextInput id="TextInput4">
+							<left>28px</left>
+							<top>437px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app02link</variable>
+							<change>SetItem &quot;app02link&quot; [app02link]</change>
+						</TextInput>
+						<TextArea id="TextArea2">
+							<left>29px</left>
+							<top>492px</top>
+							<width>352px</width>
+							<height>124px</height>
+							<variable>app02deslong</variable>
+							<change>SetItem &quot;app02deslong&quot; [app02deslong]</change>
+						</TextArea>
+						<Headline id="Headline9">
+							<left>26px</left>
+							<top>358px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 02</text>
+						</Headline>
+						<Headline id="Headline10">
+							<left>26px</left>
+							<top>419px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 02Link</text>
+						</Headline>
+						<Headline id="Headline11">
+							<left>27px</left>
+							<top>474px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 02 detail</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Apploader1b">
+					<Components>
+						<Headline id="Headline15">
+							<left>28px</left>
+							<top>32px</top>
+							<width>372px</width>
+							<height>46px</height>
+							<style>text-align:center</style>
+							<text>MDS Applications 24</text>
+						</Headline>
+						<TextInput id="TextInput5">
+							<left>27px</left>
+							<top>99px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app03des</variable>
+							<change>SetItem &quot;app03des&quot; [app03des]</change>
+						</TextInput>
+						<TextInput id="TextInput6">
+							<left>28px</left>
+							<top>159px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app03link</variable>
+							<change>SetItem &quot;app03link&quot; [app03link]</change>
+						</TextInput>
+						<TextArea id="TextArea3">
+							<left>29px</left>
+							<top>214px</top>
+							<width>352px</width>
+							<height>124px</height>
+							<variable>app03deslong</variable>
+							<change>SetItem &quot;app03deslong&quot; [app03deslong]</change>
+						</TextArea>
+						<Headline id="Headline16">
+							<left>26px</left>
+							<top>80px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 03</text>
+						</Headline>
+						<Headline id="Headline17">
+							<left>26px</left>
+							<top>141px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 03Link</text>
+						</Headline>
+						<Headline id="Headline18">
+							<left>27px</left>
+							<top>196px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 03 detail</text>
+						</Headline>
+						<Pager id="Pager4">
+							<left>152px</left>
+							<top>684px</top>
+							<width>133px</width>
+							<height>38px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<PushButton id="PushButton8">
+							<left>345px</left>
+							<top>4px</top>
+							<width>59px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>HOME</caption>
+							<click>GotoPage &quot;CatalogueHome&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput7">
+							<left>27px</left>
+							<top>377px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app04des</variable>
+							<change>SetItem &quot;app04des&quot; [app04des]</change>
+						</TextInput>
+						<TextInput id="TextInput8">
+							<left>28px</left>
+							<top>437px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app04link</variable>
+							<change>SetItem &quot;app04link&quot; [app04link]</change>
+						</TextInput>
+						<TextArea id="TextArea4">
+							<left>29px</left>
+							<top>492px</top>
+							<width>352px</width>
+							<height>124px</height>
+							<variable>app04deslong</variable>
+							<change>SetItem &quot;app04deslong&quot; [app04deslong]</change>
+						</TextArea>
+						<Headline id="Headline19">
+							<left>26px</left>
+							<top>358px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 04</text>
+						</Headline>
+						<Headline id="Headline20">
+							<left>26px</left>
+							<top>419px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 04Link</text>
+						</Headline>
+						<Headline id="Headline21">
+							<left>27px</left>
+							<top>474px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 04 detail</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Apploader2a">
+					<Components>
+						<Headline id="Headline28">
+							<left>28px</left>
+							<top>32px</top>
+							<width>372px</width>
+							<height>46px</height>
+							<style>text-align:center</style>
+							<text>MDS Applications 24</text>
+						</Headline>
+						<TextInput id="TextInput9">
+							<left>27px</left>
+							<top>99px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app05des</variable>
+							<change>SetItem &quot;app05des&quot; [app05des]</change>
+						</TextInput>
+						<TextInput id="TextInput10">
+							<left>28px</left>
+							<top>159px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app05link</variable>
+							<change>SetItem &quot;app05link&quot; [app05link]</change>
+						</TextInput>
+						<TextArea id="TextArea5">
+							<left>29px</left>
+							<top>214px</top>
+							<width>352px</width>
+							<height>124px</height>
+							<variable>app05deslong</variable>
+							<change>SetItem &quot;app05deslong&quot; [app05deslong]</change>
+						</TextArea>
+						<Headline id="Headline29">
+							<left>26px</left>
+							<top>80px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 05</text>
+						</Headline>
+						<Headline id="Headline30">
+							<left>26px</left>
+							<top>141px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 05Link</text>
+						</Headline>
+						<Headline id="Headline31">
+							<left>27px</left>
+							<top>196px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 05 detail</text>
+						</Headline>
+						<Pager id="Pager1">
+							<left>152px</left>
+							<top>684px</top>
+							<width>133px</width>
+							<height>38px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+						<PushButton id="PushButton19">
+							<left>345px</left>
+							<top>4px</top>
+							<width>59px</width>
+							<height>27px</height>
+							<style>font-size:9pt</style>
+							<caption>HOME</caption>
+							<click>GotoPage &quot;CatalogueHome&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput11">
+							<left>27px</left>
+							<top>377px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app02des</variable>
+							<change>SetItem &quot;app02des&quot; [app02des]</change>
+						</TextInput>
+						<TextInput id="TextInput12">
+							<left>28px</left>
+							<top>437px</top>
+							<width>352px</width>
+							<height>35px</height>
+							<variable>app02link</variable>
+							<change>SetItem &quot;app02link&quot; [app02link]</change>
+						</TextInput>
+						<TextArea id="TextArea6">
+							<left>29px</left>
+							<top>492px</top>
+							<width>352px</width>
+							<height>124px</height>
+							<variable>app02deslong</variable>
+							<change>SetItem &quot;app02deslong&quot; [app02deslong]</change>
+						</TextArea>
+						<Headline id="Headline32">
+							<left>26px</left>
+							<top>358px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 02</text>
+						</Headline>
+						<Headline id="Headline33">
+							<left>26px</left>
+							<top>419px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 02Link</text>
+						</Headline>
+						<Headline id="Headline34">
+							<left>27px</left>
+							<top>474px</top>
+							<width>372px</width>
+							<height>21px</height>
+							<style>font-size:12pt;text-align:left</style>
+							<text>Application 02 detail</text>
+						</Headline>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+		<PageList name="Master">
+			<Components>
+				<Page id="MasterPage"/>
+			</Components>
+		</PageList>
+		<PageList name="Dialog">
+			<Components>
+				<Page id="NewDialog">
+					<Components>
+						<DialogContainer id="DialogContainer1">
+							<left>0px</left>
+							<top>0px</top>
+							<width>414px</width>
+							<height>736px</height>
+							<close_button>False</close_button>
+							<kind>custom</kind>
+						</DialogContainer>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+	</Components>
+</Application>
