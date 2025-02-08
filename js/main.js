@@ -26,6 +26,7 @@ $App.NAB.PageID = "CatalogueHome";
 $scope.Pager1_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager1_nextclick = function() {$scope.GotoNextPage();};
 $scope.PushButton2_click = function() {$scope.GotoPage( "Apploader01" );};
+$scope.PushButton9_click = function() {window.document.location.reload();};
 });
 NeoApp.controller("Applicationlist01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
